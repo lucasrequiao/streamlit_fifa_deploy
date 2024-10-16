@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 if "data" not in st.session_state:
-    df_data = pd.read_csv("/Users/lucasmelo/Documents/Asimov/Criando Aplicativos Web com Streamlit/Projeto Streamlit FIFA/datasets/CLEAN_FIFA23_official_data.csv", index_col=0)
+    df_data = pd.read_csv("/Users/lucasmelo/Documents/GitHub/streamlit_fifa_deploy/Fifa 23 Players Data.csv", index_col=0)
     st.session_state["data"] = df_data
 
 
